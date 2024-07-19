@@ -11,6 +11,8 @@ class EnemyGroup extends Phaser.Physics.Arcade.Group {
   }
 }
 
+// Hello my name is Thomas
+
 function move(enemy, scene) {
   // Randomize the enemy's position at the top of the screen
   enemy.x = Phaser.Math.Between(0, scene.game.config.width);
